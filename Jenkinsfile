@@ -21,7 +21,7 @@ node {
           keepAll: true,
           reportDir: 'build/test/html',
           reportFiles: 'index.html',
-          reportName: 'Build Report'
+          reportName: 'Build Report',
           reportTitles: 'Results'])
         
 
