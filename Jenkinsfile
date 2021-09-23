@@ -7,11 +7,11 @@ node {
 
         stage 'build'
         workspace = pwd()
-        sh "ant jar"
+        sh "/usr/local/bin/ant jar"
 
         stage 'test'
         workspace = pwd()
-        sh "ant test"
+        sh "/usr/local/bin/ant test"
 
 
 
